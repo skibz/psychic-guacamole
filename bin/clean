@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+rm -rf *.love || echo "nothing to clean, exiting!"
