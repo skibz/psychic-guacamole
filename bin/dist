@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 
-zip -r game.love ..
+zip -r game.love . -x ".editorconfig" ".gitignore" ".git/*" "bin/*"
+mkdir -p dist
+mv game.love dist
